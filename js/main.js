@@ -46,5 +46,21 @@ console.log(firstNode.textContent)
 
 // attribute methodes
 const learnMore = document.getElementById("learn")
-
+// getting attribute value
 console.log(learnMore.getAttribute("href"))
+console.log(learnMore.getAttribute("class"))
+
+//getting attribute value that is a property like id by using the property name
+console.log(learnMore.id)
+
+// setting attribute value
+learnMore.setAttribute("target", "_blank")
+
+// adding a class using classlist
+learnMore.classList.add("btn")
+
+const fakeConsole = document.getElementById("box")
+fakeConsole.setAttribute("style", `
+background-color: powderblue;
+padding: 10px;
+border 1px solid black;`)
