@@ -64,3 +64,8 @@ fakeConsole.setAttribute("style", `
 background-color: powderblue;
 padding: 10px;
 border 1px solid black;`)
+
+fakeConsole.innerHTML += "<p>This is a fake console, where we can output our information</p>"
+fakeConsole.innerHTML += "The above URL is " + learnMore.getAttribute("href")
+fakeConsole.innerHTML += "<br>" + document.URL
+
